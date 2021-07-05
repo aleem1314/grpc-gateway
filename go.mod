@@ -15,3 +15,6 @@ require (
 	google.golang.org/grpc v1.33.1
 	gopkg.in/yaml.v2 v2.2.3 // indirect
 )
+
+
+replace github.com/grpc-ecosystem/grpc-gateway => github.com/aleem1314/grpc-gateway v1.16.3
