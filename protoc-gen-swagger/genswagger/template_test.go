@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/aleem1314/grpc-gateway/protoc-gen-grpc-gateway2/descriptor"
+	"github.com/aleem1314/grpc-gateway/protoc-gen-grpc-gateway2/httprule"
 	"github.com/golang/protobuf/proto"
 	protodescriptor "github.com/golang/protobuf/protoc-gen-go/descriptor"
 	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
 	structpb "github.com/golang/protobuf/ptypes/struct"
-	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
-	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/httprule"
 	swagger_options "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger/options"
 )
 

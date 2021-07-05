@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
+	"github.com/aleem1314/grpc-gateway/protoc-gen-grpc-gateway2/descriptor"
 )
 
 type param struct {

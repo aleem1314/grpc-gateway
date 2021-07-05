@@ -9,6 +9,8 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/aleem1314/grpc-gateway/protoc-gen-grpc-gateway2/descriptor"
+	gen "github.com/aleem1314/grpc-gateway/protoc-gen-grpc-gateway2/generator"
 	"github.com/golang/glog"
 	pbdescriptor "github.com/golang/protobuf/descriptor"
 	"github.com/golang/protobuf/proto"
@@ -16,8 +18,6 @@ import (
 	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/grpc-ecosystem/grpc-gateway/internal"
-	"github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
-	gen "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/generator"
 	swagger_options "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger/options"
 )
 
