@@ -7,9 +7,9 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/aleem1314/grpc-gateway/internal/casing"
 	"github.com/aleem1314/grpc-gateway/protoc-gen-grpc-gateway2/descriptor"
 	"github.com/golang/glog"
-	"github.com/grpc-ecosystem/grpc-gateway/internal/casing"
 	"github.com/grpc-ecosystem/grpc-gateway/utilities"
 )
 

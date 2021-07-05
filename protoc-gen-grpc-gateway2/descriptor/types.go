@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/aleem1314/grpc-gateway/internal/casing"
 	"github.com/aleem1314/grpc-gateway/protoc-gen-grpc-gateway2/httprule"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/grpc-ecosystem/grpc-gateway/internal/casing"
 )
 
 // IsWellKnownType returns true if the provided fully qualified type name is considered 'well-known'.
